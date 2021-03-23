@@ -24,8 +24,6 @@ body {
     background-color: #1e2939;
 }
 .foto {
-    /* width: 370px;
-    height: 354px; */
     margin: 40px;
     align-items: center;
 }
@@ -88,12 +86,11 @@ h5{
     width: 1200px;
     height: 1319px;
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
-    /* padding-left: 90px; */
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
-    line-height: 24px;
+    line-height: 20px;
     color: #595959;
 }
 section {
@@ -105,24 +102,25 @@ section h3 {
     font-weight: 700;
     font-style: normal;
     color: #000000;
-    margin-top: 45px;
+    margin-top: 40px;
 }
-.about-me h2 {
+ h2 {
     font-size: 14px;
     font-weight: 700;
     font-style: normal;
     padding-top: 50px;
     color: #000000;
 }
-.about-me h1 {
+ h1 {
     font-size: 45px;
     font-weight: 700;
     font-style: normal;
-    line-height: 89px;
+    line-height: 60px;
     color: #000000;
 }
 .head-paragraph-text {
     margin-right: 20px;
+    margin-top: 10px;
     
 }
 .tech-skills .icons {
@@ -137,7 +135,7 @@ section h3 {
     height: 35px;
 }
 .tech-skills-list {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 20px;
     color: black;
     font-size: 14px;
@@ -147,11 +145,6 @@ section h3 {
 .tech-skills-text {
     display: flex;
     justify-content: space-between ;
-}
-.projects {
-    color: #000000;
-    font-weight: 700;
-    margin-top: 55px;
 }
 
 .projects-link-text {
@@ -167,16 +160,16 @@ section h3 {
 }
 .submain-conteiner-list {
     margin-left: 15px;
-    margin-top: 5px;
+    margin-top: 10px;
   
 }
-div h4 {
+ h4 {
     color: #000000;
     font-size: 16px;
     font-weight: 700;
     font-style: normal;
     margin-bottom: 5px;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .work-title-color {
     color: #ff6b08;
