@@ -24,8 +24,20 @@ body {
     background-color: #1e2939;
 }
 .foto {
-    margin: 40px;
+    margin: 40px 40px 20px;
     align-items: center;
+}
+.bd {
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    padding-left: 40px; 
+}
+.bd span {
+    font-weight: 400;
+    color: #ff6b08;
+    padding-left: 8px;
 }
 .contacts-text {
     font-size: 14px;
@@ -51,12 +63,14 @@ body {
 }
 .sidebar-list-text {
     color: #ffffff;
+    font-weight: 400;
 }
 .education {
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
     padding-left: 41px;
+    padding-right: 20px;
     padding-top: 52px;
     line-height: 24px;
     color: #ffffff;
@@ -82,6 +96,18 @@ h5{
     padding-left: 16px;
     color: #ff6b08;
 }
+.languages-container {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 41px;
+    padding-top: 52px;
+    line-height: 24px;
+}
+.languages-text{
+    color: #ff6b08;
+    list-style-type: none;
+}
 .submain-container {
     width: 1200px;
     height: 1319px;
@@ -91,17 +117,16 @@ h5{
     font-style: normal;
     letter-spacing: normal;
     line-height: 20px;
-    color: #595959;
+    color: #000000;
 }
 section {
-    width: 700px;
+    max-width: 700px;
     margin-left: 90px;
 }
 section h3 {
     font-size: 22px;
     font-weight: 700;
     font-style: normal;
-    color: #000000;
     margin-top: 40px;
 }
  h2 {
@@ -109,14 +134,12 @@ section h3 {
     font-weight: 700;
     font-style: normal;
     padding-top: 50px;
-    color: #000000;
 }
  h1 {
     font-size: 45px;
     font-weight: 700;
     font-style: normal;
     line-height: 60px;
-    color: #000000;
 }
 .head-paragraph-text {
     margin-right: 20px;
@@ -137,7 +160,6 @@ section h3 {
 .tech-skills-list {
     margin-top: 10px;
     margin-left: 20px;
-    color: black;
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
@@ -148,7 +170,7 @@ section h3 {
 }
 
 .projects-link-text {
-    color: #595959;
+    color: #000000;
     font-weight: 400; 
     font-size: 14px;
 }
@@ -164,18 +186,17 @@ section h3 {
   
 }
  h4 {
-    color: #000000;
     font-size: 16px;
     font-weight: 700;
     font-style: normal;
     margin-bottom: 5px;
     margin-top: 20px;
 }
-.work-title-color {
+.course-title-color {
     color: #ff6b08;
 }
 .date {
-    color: #a8a8a8;
+    color: #595959;
     font-size: 12px;
     font-weight: 400;
     font-style: normal;   
