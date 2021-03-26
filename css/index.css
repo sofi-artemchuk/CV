@@ -7,7 +7,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     max-width: 1280px;
-    height: 1965px;
+    min-height: 1965px;
     background-color: #f5f7fa;
     padding: 40px;
     margin: 0 auto;
@@ -18,8 +18,8 @@ body {
     background-color: #ffffff;
 }
 .sidebar-conteiner { 
-    width: 370px;
-    height: 1319px;
+    min-width: 370px;
+    min-height: 1319px;
     color: #ffffff;
     background-color: #1e2939;
 }
@@ -103,6 +103,7 @@ h5{
 .soft-skills-text {
     padding-left: 16px;
     color: #ff6b08;
+    list-style-position: inside;
 }
 .languages-container {
     font-size: 14px;
@@ -117,8 +118,8 @@ h5{
     list-style-type: none;
 }
 .submain-container {
-    width: 1200px;
-    height: 1319px;
+    max-width: 1200px;
+    min-height: 1319px;
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
     font-size: 14px;
     font-weight: 400;
@@ -176,6 +177,7 @@ section h3 {
 .tech-skills-text {
     display: flex;
     justify-content: space-between ;
+    
 }
 
 .projects-link-text {
@@ -212,4 +214,36 @@ section h3 {
 }
 .date-divider {
     color: black;
+}
+
+@media (max-width: 990px) {
+    .main-container {
+        flex-direction: column;
+    }
+    .sidebar-conteiner {
+        text-align: center;
+    }
+    .contacts-text {
+        justify-content: center;
+    }
+    .soft-skills-text {
+        justify-content: center;
+    }
+    section {
+        max-width: 400px;
+        margin-left: 90px;
+        margin-right: 35px;
+    }
+    section h1, h2, h3, h4{
+        text-align: center;
+    }
+    section .date {
+        margin-left: 130px;
+    }
+    .submain-conteiner-list {
+        margin-left: 50px;
+    }
+    .bd {
+        padding-left: 0;
+    }
 }
