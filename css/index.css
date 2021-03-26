@@ -7,7 +7,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     max-width: 1280px;
-    min-height: 1965px;
+    max-height: 1965px;
+    width: 100%;
     background-color: #f5f7fa;
     padding: 40px;
     margin: 0 auto;
@@ -18,21 +19,22 @@ body {
     background-color: #ffffff;
 }
 .sidebar-conteiner { 
-    min-width: 370px;
+    max-width: 500px;
     min-height: 1319px;
     color: #ffffff;
     background-color: #1e2939;
+    padding: 40px;
 }
 .foto {
-    margin: 40px 40px 20px;
-    align-items: center;
+    display: block;
+    margin: 0 auto;
 }
 .bd {
     font-size: 14px;
     font-weight: 700;
     font-style: normal;
     color: #ffffff;
-    padding-left: 40px; 
+    margin: 20px 20px 0;
 }
 .bd span {
     font-weight: 400;
@@ -50,9 +52,7 @@ body {
     font-size: 14px;
     font-weight: 700;
     font-style: normal;
-    padding-left: 40px;
     padding-top: 57px;
-    margin-right: 40px;
 }
 .contacts-text {
     display: flex;
@@ -77,8 +77,6 @@ body {
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
-    padding-left: 41px;
-    padding-right: 20px;
     padding-top: 52px;
     line-height: 24px;
     color: #ffffff;
@@ -96,7 +94,6 @@ h5{
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
-    padding-left: 41px;
     padding-top: 52px;
     line-height: 24px;
 }
@@ -109,7 +106,6 @@ h5{
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
-    padding-left: 41px;
     padding-top: 52px;
     line-height: 24px;
 }
@@ -119,7 +115,6 @@ h5{
 }
 .submain-container {
     max-width: 1200px;
-    min-height: 1319px;
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
     font-size: 14px;
     font-weight: 400;
@@ -130,8 +125,7 @@ h5{
 }
 section {
     max-width: 700px;
-    margin-left: 90px;
-    margin-right: 35px;
+    margin: 50px 40px 40px 50px;
 }
 section h3 {
     font-size: 22px;
@@ -143,7 +137,6 @@ section h3 {
     font-size: 14px;
     font-weight: 700;
     font-style: normal;
-    padding-top: 50px;
 }
  h1 {
     font-size: 45px;
@@ -154,7 +147,6 @@ section h3 {
 .head-paragraph-text {
     margin-right: 20px;
     margin-top: 10px;
-    
 }
 .tech-skills .icons {
     display: flex;
@@ -177,9 +169,7 @@ section h3 {
 .tech-skills-text {
     display: flex;
     justify-content: space-between ;
-    
 }
-
 .projects-link-text {
     color: #000000;
     font-weight: 400; 
@@ -194,7 +184,6 @@ section h3 {
 .submain-conteiner-list {
     margin-left: 15px;
     margin-top: 10px;
-  
 }
  h4 {
     font-size: 16px;
@@ -217,10 +206,14 @@ section h3 {
 }
 
 @media (max-width: 990px) {
+    body {
+        padding: 10px;
+    }
     .main-container {
         flex-direction: column;
     }
     .sidebar-conteiner {
+        padding: 20px;
         text-align: center;
     }
     .contacts-text {
@@ -230,20 +223,39 @@ section h3 {
         justify-content: center;
     }
     section {
-        max-width: 400px;
-        margin-left: 90px;
-        margin-right: 35px;
+        margin-left: 25px;
+        margin-right: 20px;
     }
     section h1, h2, h3, h4{
         text-align: center;
     }
-    section .date {
-        margin-left: 130px;
+    .tech-skills .icons {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
     }
-    .submain-conteiner-list {
-        margin-left: 50px;
+    .tech-skills-text {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 2/1;                
+        
     }
-    .bd {
-        padding-left: 0;
+    .grid-box-1 {
+        grid-column: 1;
+        grid-row: 1;
+        
+    }
+    .grid-box-2 {
+        grid-column: 1;
+        grid-row: 2/1;
+        margin-top: 60px;
+    }
+    .grid-box-3 {
+        grid-column: 2;
+        grid-row: 1;
+        
+    } 
+    .tech-skills-text div {
+        margin-left: 5px;
+     
     }
 }
