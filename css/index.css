@@ -20,7 +20,7 @@ body {
 }
 .sidebar-conteiner { 
     max-width: 500px;
-    min-height: 1319px;
+    max-height: 1319px;
     color: #ffffff;
     background-color: #1e2939;
     padding: 40px;
